@@ -1,13 +1,12 @@
 /**
- * THIS FUNCTION PUTS A CERTAIN MESSAGE IN THE STANDARD OUTPUT
+ * main - THIS FUNCTION PUTS A CERTAIN MESSAGE IN THE STANDARD OUTPUT
  */
 
 #include <stdio.h>
 
 /**
- *
  * main - FUNCTION WILL DO IT
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
