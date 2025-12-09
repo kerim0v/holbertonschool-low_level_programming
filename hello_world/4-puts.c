@@ -5,9 +5,9 @@
 #include <stdio.h>
 
 /**
- *HI
- *MAIN FUNCTION WILL DO IT
- *RETURN:0
+ *
+ * main - FUNCTION WILL DO IT
+ * return: 0
  */
 int main(void)
 {
