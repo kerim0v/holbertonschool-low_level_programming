@@ -7,7 +7,7 @@
 /**
  * main - this function prints out certain message in the standard output
  *
- * Return: zero if code runes successfully
+ * Return: 0 if code runes successfully
  */
 int main(void)
 {
