@@ -6,6 +6,7 @@
 
 /**
  * main - FUNCTION WILL DO IT
+ *
  * Return: 0
  */
 int main(void)
