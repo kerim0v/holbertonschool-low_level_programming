@@ -1,11 +1,11 @@
 /**
- * main - THIS FUNCTION PUTS A CERTAIN MESSAGE IN THE STANDARD OUTPUT
+ * File: 4-puts.c
  */
 
 #include <stdio.h>
 
 /**
- * main - FUNCTION WILL DO IT
+ * main - this function prints out certain message in the standard output
  *
  * Return: 0
  */
