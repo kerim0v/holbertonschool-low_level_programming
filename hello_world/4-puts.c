@@ -5,11 +5,11 @@
 #include <stdio.h>
 
 /**
- * main - this function prints out certain message in the standard output
+ * main - entry point
  *
- * Description: prints string with backslash used
- * for escape character
- * Return: 0 if code runes successfully
+ * Description: prints string
+ * \"Programming is like building a multilingual puzzle
+ * Return: 0 Always
  */
 int main(void)
 {
