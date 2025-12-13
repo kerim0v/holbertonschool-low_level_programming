@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - wdpfjpfi
- * @c - mi bombo
+ * @c: mi bombo
  * Return: 1 if success, 0 if no
  */
 
