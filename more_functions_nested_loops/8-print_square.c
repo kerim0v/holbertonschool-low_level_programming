@@ -21,7 +21,7 @@ void print_square(int size)
 			for (n = 2; n <= size; n++)
 			       _putchar('#');
 		i++;
-		_putchar('\n');	
+		_putchar('\n');
 		}
 	}
 }
