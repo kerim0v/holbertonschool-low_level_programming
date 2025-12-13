@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - checks for wealth
+ * _islower - checks for wealth
  *
  * Returns: 1 if lower 0 if else
  */
