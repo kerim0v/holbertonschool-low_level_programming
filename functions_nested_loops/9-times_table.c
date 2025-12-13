@@ -6,7 +6,7 @@
  * Return: nothinh
  */
 
-void times_tables(void)
+void times_table(void)
 {
 	int rone, cone, d;
 
