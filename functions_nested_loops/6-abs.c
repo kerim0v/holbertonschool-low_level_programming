@@ -3,7 +3,7 @@
 /**
  * _abs - asoinfowifj
  * @ab: aspdk
- * Return: no return 
+ * Return: no return
  */
 
 int _abs(int ab)
