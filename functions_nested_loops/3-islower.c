@@ -2,8 +2,8 @@
 
 /**
  * _islower - checks for wealth
- *
- * Returns: 1 if lower 0 if else
+ * @c: single letter input
+ * Returns: 1 if lower, 0 if else
  */
 
 int _islower(int c)
