@@ -2,7 +2,7 @@
 
 /**
  * print_rev - dfsjfkdsf;l
- * @c: dkfslf
+ * @s: dkfslf
  * Return: ldkdsfd
  */
 
