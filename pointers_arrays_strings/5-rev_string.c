@@ -17,7 +17,7 @@ void rev_string(char *s)
 
 	a = s + i - 1;
 
-	for (c = 0; c < i; c++)
+	for (c = 0; c < (i /2); c++)
 	{
 		x = s[c];
 		s[c] = *a;
@@ -25,4 +25,3 @@ void rev_string(char *s)
 		a--;
 	}
 }
-
