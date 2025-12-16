@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * puts2 -poasdkpofk
+ * @str: dpopfaks
+ * Return: dkfsl;dk
+ */
+
+void puts2(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+		i += 2;
