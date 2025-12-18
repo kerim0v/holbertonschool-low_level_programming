@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reverse_array(int *a, int n);
+ * reverse_array - dslgksl;gdk
  * @a: lkdjf
  * @n: asdflkm
  * Return: d;slgk
