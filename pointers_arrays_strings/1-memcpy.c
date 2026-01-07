@@ -2,9 +2,9 @@
 
 /**
  * _memcpy - sdp
- * @dest - pointer
- * @src - pointer
- * @n - int
+ * @dest: ointer
+ * @src: ointer
+ * @n: int
  * Return: destination
  */
 
