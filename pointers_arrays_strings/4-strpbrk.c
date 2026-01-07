@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strbrk - dogji
+ * _strpbrk - dogji
  * @s: sdlkj
  * @accept: ;dsakf
  * Return: sdlkf
