@@ -15,4 +15,4 @@ int factorial(int n)
 		n = n * factorial(n - 1);
 		return (n);
 	}
-}u
+}
