@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - d;gj
+ * _print_rev_recursion - dgj
  * @s: kdf
- * Return: ;alfk;
+ * Return:alfk
  */
 
 void _print_rev_recursion(char *s)
