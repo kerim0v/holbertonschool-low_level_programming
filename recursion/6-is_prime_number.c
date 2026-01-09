@@ -13,7 +13,7 @@ int is_prime_helper(int n, int i)
 		return (1);
 
 	if (n % i == 0)
-		return(0);
+		return (0);
 
 	return (is_prime_helper(n, i + 1));
 }
