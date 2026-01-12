@@ -9,12 +9,13 @@
 
 int main(int argc, char *argv[])
 {
+	int a, b;
+
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	int a, b;
 
 	a = strtoi(argv[1]);
 	b = strtoi(argv[2]);
