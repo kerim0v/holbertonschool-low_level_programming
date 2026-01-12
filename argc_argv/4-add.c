@@ -14,13 +14,13 @@ int main(int argc, char *argv[])
 	int sum = 0;
 	char *endptr;
 	long num;
-	
+
 	if (argc == 1)
 	{
 		printf("0\n");
 		return (0);
 	}
-	
+
 	for (i = 1; i < argc; i++)
 	{
 		num = strtol(argv[i], &endptr, 10);
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
-		
+
 		sum += (int)num;
 	}
 
