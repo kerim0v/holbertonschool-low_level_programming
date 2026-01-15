@@ -1,5 +1,12 @@
 #include <stdlib.h>
 
+/**
+ * alloc_grid - df
+ * @width: dsfdf
+ * @height: ad
+ * Return: fs
+ */
+
 int **alloc_grid(int width, int height)
 {
 	int **grid;
