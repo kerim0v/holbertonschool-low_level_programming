@@ -1,8 +1,8 @@
 #include "stdlib.h"
 
 /**
- * string_noncat - df
- * @s1: d
+ * string_nconcat - df
+ * @s1: di
  * @s2: sad
  * Return: sad
  */
@@ -25,13 +25,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		len1++;
 	if (len1 <= n)
 	{
-		str = malloc((len + len1) * sizeof(char));
+		str = malloc((len + len1 + 1) * sizeof(char));
 		if (str == NULL)
 			return (NULL);
 	}
 	else
 	{
-		str = malloc((len + n) * sizeof(char));
+		str = malloc((len + n + 1) * sizeof(char));
 		if (str == NULL)
 			return (NULL);
 	}
