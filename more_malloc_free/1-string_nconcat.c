@@ -4,6 +4,7 @@
  * string_nconcat - df
  * @s1: di
  * @s2: sad
+ * @n: sad
  * Return: sad
  */
 
