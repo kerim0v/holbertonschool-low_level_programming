@@ -13,7 +13,7 @@ int *array_range(int min, int max)
 	int *p;
 	int len = min, i;
 
-	while (len <= max)
+	while (len < max)
 		len++;
 
 	if (min > max)
