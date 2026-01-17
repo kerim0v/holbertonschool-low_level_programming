@@ -11,10 +11,9 @@
 int *array_range(int min, int max)
 {
 	int *p;
-	int len = min, i;
+	int len, i;
 
-	while (len < max)
-		len++;
+	len = max - min + 1;
 
 	if (min > max)
 		return (NULL);
