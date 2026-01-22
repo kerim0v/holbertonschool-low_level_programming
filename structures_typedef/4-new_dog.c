@@ -8,37 +8,27 @@
  * @owner: as
  * Return: a
  */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
 	int i, namelen = 0, ownerlen = 0;
-
 	if (name == NULL || owner == NULL)
 		return (NULL);
-
 	while (name[namelen] != '\0')
 		namelen++;
-
 	while (owner[ownerlen] != '\0')
 		ownerlen++;
-
 	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
 		return (NULL);
 
-	dog->name = malloc(sizeof(char) * namelen + 1);
-	if (dog->name == NULL)
+	dog->name = malloc(name_len + 1);
+	dog->owner = malloc(owner_len + 1);
+	if (!dog->name || !dog->owner)
 	{
-		free(dog);
-		return (NULL);
-	}
-
-	dog->owner = malloc(sizeof(char) * ownerlen + 1);
-	if (dog->owner == NULL)
-	{
-		free(dog);
 		free(dog->name);
+		free(dog->owner);
+		free(dog);
 		return (NULL);
 	}
 
