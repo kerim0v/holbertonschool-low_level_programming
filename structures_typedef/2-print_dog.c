@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdlib.o>
+#include <stdlib.h>
 
 /**
  * print_dog - dff
