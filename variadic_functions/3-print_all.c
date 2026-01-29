@@ -11,9 +11,6 @@ void print_all(const char * const format, ...)
 	va_list ap;
 	unsigned int i = 0;
 	char *s;
-	char c;
-	int n;
-	double f;
 	char *sep = "";
 
 	va_start(ap, format);
