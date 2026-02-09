@@ -3,7 +3,7 @@
 /**
  * read_textfile - asfa
  * @filename:csad
- * letters: asda
+ * @letters: asda
  * Return: asfa
  */
 
