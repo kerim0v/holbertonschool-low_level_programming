@@ -7,7 +7,7 @@
  * Return: asfaf
  */
 
-char *hash_tables_get(const hash_table_t *ht, const char *key)
+char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	unsigned long int index;
 	hash_node_t *node;
